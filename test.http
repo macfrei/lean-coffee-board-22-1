@@ -1,0 +1,14 @@
+GET http://example.com/
+
+### 
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "title": "foo",
+    "body": "bar",
+    "userId": "1"
+}
